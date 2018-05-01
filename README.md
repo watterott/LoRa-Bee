@@ -4,4 +4,4 @@ XBee footprint compatible LoRa Module with HopeRF RFM9xW LoRa (Long Range) Wirel
 * [HopeRF RFM95W/RFM96W](http://www.hoperf.com/rf_transceiver/lora/) LoRa Transceiver
 * SPI interface
 * XBee compatible Pinout (3.3V)
-* **[Documentation on learn.watterott.com](http://learn.watterott.com/bee-modules/lora-bee/)**
+* **[Documentation on learn.watterott.com](http://learn.watterott.com/bee-modules/lora/)**
