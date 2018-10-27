@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3205,6 +3205,7 @@ HW</text>
 License. http://creativecommons.org/licenses/by-sa/4.0/
 
 Designed by Watterott electronic</text>
+<text x="162.56" y="107.95" size="1.778" layer="97">INT (Interrupt-Output) is high-active</text>
 </plain>
 <instances>
 <instance part="X2" gate="X" x="171.45" y="7.62"/>
@@ -3244,7 +3245,7 @@ Designed by Watterott electronic</text>
 <instance part="ANT1" gate="X" x="55.88" y="118.11"/>
 <instance part="R3" gate="R" x="151.13" y="100.33" rot="R270"/>
 <instance part="D1" gate="D" x="139.7" y="110.49"/>
-<instance part="D2" gate="D" x="144.78" y="107.95"/>
+<instance part="D2" gate="D" x="146.05" y="107.95"/>
 <instance part="GND1" gate="1" x="151.13" y="92.71" smashed="yes">
 <attribute name="VALUE" x="148.59" y="90.17" size="1.778" layer="96"/>
 </instance>
@@ -3408,7 +3409,7 @@ Designed by Watterott electronic</text>
 <wire x1="151.13" y1="107.95" x2="151.13" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="110.49" x2="151.13" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="D2" gate="D" pin="C"/>
-<wire x1="147.32" y1="107.95" x2="151.13" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="148.59" y1="107.95" x2="151.13" y2="107.95" width="0.1524" layer="91"/>
 <junction x="151.13" y="107.95"/>
 </segment>
 </net>
@@ -3423,7 +3424,7 @@ Designed by Watterott electronic</text>
 <segment>
 <pinref part="IC1" gate="IC" pin="DIO1"/>
 <pinref part="D2" gate="D" pin="A"/>
-<wire x1="135.89" y1="107.95" x2="142.24" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="135.89" y1="107.95" x2="143.51" y2="107.95" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
